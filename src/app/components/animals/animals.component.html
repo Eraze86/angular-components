@@ -1,1 +1,9 @@
-<p>animals works!</p>
+<ul>
+    <li *ngFor="let animal of animalsArray" ngIf="animal.isfed">
+        Namn: {{ animal.name}}<br/> 
+        Ålder: {{animal.age }}<br/>
+        Färg: {{ animal.color}}<br/>
+        Fått mat: {{ animal.isFed}}<br/>
+    <br/></li>
+    
+</ul>

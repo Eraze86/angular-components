@@ -9,16 +9,16 @@ import { Animal } from '../../modules/animals';
 export class AnimalsComponent implements OnInit {
 
   animalsArray = [
-    new Animal ("cat", "black", 20),
-    new Animal ("dog", "gold", 17),
-    new Animal ("mouse", "grey", 5),
-    new Animal ("chicken", "yellow", 3),
+    new Animal ("Cat", "Black", 20, true),
+    new Animal ("Dog", "Gold", 17, false),
+    new Animal ("Mouse", "Grey", 5, false),
+    new Animal ("Chicken", "Yellow", 3, true),
   ]
-
+  
   constructor() { }
 
   ngOnInit(): void {
   }
+ 
 
 }
-console.log("hej")

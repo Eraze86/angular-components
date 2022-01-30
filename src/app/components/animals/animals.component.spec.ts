@@ -22,4 +22,8 @@ describe('AnimalsComponent', () => {
   it('should create', () => {
     expect(component).toBeTruthy();
   });
+
+  it('should se if all the animals is in the list', () => {
+    expect(component.animalsArray.length).toBe(4);
+  });
 });
